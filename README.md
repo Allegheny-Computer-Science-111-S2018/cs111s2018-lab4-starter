@@ -43,7 +43,7 @@ of your implementation:
 * The `WordHide` program must:
   * Contain at least four single-line comments and two multi-line comments
   * Include at least 12 `println` statements
-  * Include at least one call to the `substring` and `charAt` methods
+  * Include at least one call to the `toUpperCase`, `substring` and `charAt` methods
   * Declare at least 20 `String` variables for the lines of output
   * Produce a total of 25 lines of output
   * Display the contiguous word hidden in a 20 &times; 20 grid
@@ -53,7 +53,7 @@ of your implementation:
 
 ```
 Janyl Jumadinova Thu Feb 13 13:11:15 EDT 2018
-I am going to hide the word "articulate".
+I am going to hide the word "endearment".
 ```
 
 * The `WordHide` program will conclude with output like:

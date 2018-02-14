@@ -170,7 +170,10 @@ if [ "$CHECK" = true ]; then
   # --> GatorGrader CHECK: at least 20 "String" fragment exists in the code
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/labfour \
                                      --checkfiles WordHide.java --fragments "String" --fragmentcounts 20
-  # --> GatorGrader CHECK: running the program produces exactly 26 lines of output
+  # --> GatorGrader CHECK: at least 1 "toUpperCase()" fragment exists in the code
+  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/labfour \
+                                     --checkfiles WordHide.java --fragments "toUpperCase(" --fragmentcounts 1
+  # --> GatorGrader CHECK: running the program produces exactly 25 lines of output
   python3 gatorgrader/gatorgrader.py --nowelcome --commands "gradle -q --console plain run" --outputlines 25
   # determine_exit_code $?
   # --> GatorGrader CHECK: the reflection contains at least 2 paragraphs
