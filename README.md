@@ -28,11 +28,7 @@ you faced and the solutions you developed and your strategy for hiding the word.
 This is a Markdown file that must adhere to the standards described in the
 [Markdown Syntax Guide](https://guides.github.com/features/mastering-markdown/).
 Remember, you can preview the contents of a comitted Markdown file by clicking
-on the name of the file in your GitHub repository. Finally, don't forget that
-your `writing/reflection.md` file should adhere to the Markdown standards
-established by the [Markdown linting
-tool](https://github.com/markdownlint/markdownlint) and the writing standards
-set by the [Proselint tool](http://proselint.com/).
+on the name of the file in your GitHub repository. 
 
 The source code in the `WordHide.java` file must also pass additional tests set
 by the [GatorGrader tool](https://github.com/gkapfham/gatorgrader). As before,
@@ -185,8 +181,6 @@ developed for the following software and versions:
 
 * gradle 4.1
 * java 1.8.0
-* mdl 0.4.0
-* proselint 0.7.0
 * python 3.5.2
 
 ## Problems
